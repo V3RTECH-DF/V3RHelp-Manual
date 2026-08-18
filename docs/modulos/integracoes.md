@@ -66,6 +66,15 @@ junto ao V3RHelp e converse com ele — sem usar login nem senha de ninguém.
 5. Marque a confirmação de dados (veja abaixo) e clique em **Gerar chave**.
 6. Copie o valor mostrado **na hora** — é a única vez que ele aparece.
 
+{: .importante }
+> **Desde a v1.30.0**, um chamado aberto por uma chave de **Escrita** em nome de alguém sem
+> conta no site recebe o mesmo **e-mail de confirmação com o link de acompanhamento** que
+> recebe quem abre pela Central. Faz sentido: para quem não tem conta, esse e-mail é a
+> **única porta de entrada** para acompanhar o próprio chamado — sem ele, a pessoa não tem
+> como saber que o pedido foi recebido nem como voltar a ele depois. Isso não depende da opção
+> de notificações de abertura (veja [Configurações](configuracoes)), que só vale para quem
+> tem conta.
+
 {: .atencao }
 > **A chave é exibida uma única vez, na criação.** Depois disso o painel só mostra o prefixo
 > (os primeiros caracteres), para você reconhecer a chave na lista, nunca o valor completo. Se

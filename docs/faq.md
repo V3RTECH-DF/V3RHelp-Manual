@@ -21,6 +21,14 @@ Consegue, sim. Ao abrir o chamado, informe seu nome e e-mail e você receberá u
 **link seguro** (chamado de "magic link") para acompanhar tudo — sem precisar
 criar senha nem fazer login. Guarde o e-mail com esse link.
 
+### Abri um chamado sem ter conta e não recebi o e-mail. E agora?
+
+Confira primeiro a caixa de spam/lixo eletrônico — é a causa mais comum. Se realmente não
+chegou, confirme com quem administra o V3RHelp se o **e-mail digitado estava correto** e se
+os e-mails automáticos do site estão saindo normalmente (o problema pode ser do servidor de
+e-mail do site, não do V3RHelp). Sem esse e-mail você fica sem o link de acompanhamento — vale
+a pena resolver antes de abrir outro chamado, para não perder o histórico do primeiro.
+
 ### Recebi um e-mail dizendo que meu chamado foi atualizado. Como respondo?
 
 Basta responder pelo próprio chamado, usando o link que veio no e-mail. Assim

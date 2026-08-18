@@ -18,6 +18,22 @@ que muda para você.
 
 <div class="timeline" markdown="1">
 
+## 1.30.0 · agosto / 2026
+{: .text-green-200 }
+
+- **Confirmação garantida para quem abre chamado sem conta:** quem não tem conta no site
+  agora recebe o e-mail de confirmação com o link de acompanhamento **sempre** — inclusive
+  quando o chamado nasce por uma [integração externa](modulos/integracoes) (por exemplo, um
+  formulário fora do WordPress ligado por chave de API), e não só pela Central de Atendimento.
+  Antes, um chamado de visitante aberto por integração podia deixar a pessoa sem nenhuma forma
+  de acompanhar. Veja em [Configurações](modulos/configuracoes).
+
+## 1.29.2 · agosto / 2026
+{: .text-green-200 }
+
+- **Limpeza interna, sem efeito na tela:** uma regra que existia duplicada em dois pontos do
+  código passou a existir num só. Não muda nada no que você vê ou faz no V3RHelp.
+
 ## 1.29.0 · agosto / 2026
 {: .text-green-200 }
 

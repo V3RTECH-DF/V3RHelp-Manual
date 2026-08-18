@@ -79,6 +79,14 @@ tipo** de aviso:
 - **Lembrete de chamados parados (inatividade)** — e, ao lado, **quantos dias** sem
   movimentação disparam o lembrete
 
+{: .atencao }
+> **"Confirmar a abertura do chamado ao solicitante" não cobre quem abre chamado sem ter
+> conta no site.** Essa chave liga e desliga o aviso para quem **está logado**; quem não tem
+> conta recebe o e-mail com o link de acompanhamento **sempre**, mesmo com esta chave
+> desligada — porque, para ele, esse e-mail é a única forma de voltar ao próprio chamado. Vale
+> também para chamados abertos por uma [integração externa](/modulos/integracoes/) em nome de
+> alguém sem conta.
+
 {: .importante }
 > Os **lembretes** são o que impede um chamado de ser esquecido. O aviso de SLA faz a equipe
 > agir antes de estourar o prazo; o lembrete de inatividade cutuca chamados que ficaram
@@ -107,10 +115,17 @@ tipo** de aviso:
   tempo mínimo de preenchimento e um limite de aberturas por origem). Só afeta **visitantes
   sem login**; quem já está logado passa direto.
 
-{: .importante }
-> Definir a **URL da Central** garante que os botões "Acompanhar meu chamado" dos e-mails
-> levem a pessoa exatamente para a página certa — inclusive nos avisos enviados
-> automaticamente, que não têm como adivinhar esse endereço sozinhos.
+{: .dica }
+> **Desde a v1.30.0**, se você deixar este campo **vazio**, o V3RHelp tenta adivinhar sozinho:
+> procura, entre as páginas **publicadas** do site, uma que tenha o shortcode ou o bloco da
+> Central, e usa o endereço dela nos e-mails.
+
+{: .atencao }
+> A busca automática só ajuda quando **encontra** uma página com a Central. Não encontrando
+> nenhuma, o V3RHelp cai de volta para o **endereço principal do site** — e aí o botão
+> "Acompanhar meu chamado" leva a pessoa para a **home**, não para o chamado dela. Preencher
+> este campo é o único jeito de garantir o link certo sem depender de o sistema achar a
+> página sozinho.
 
 {: .atencao }
 > Liberar a abertura para **visitantes** é ótimo para acessibilidade, mas expõe o formulário a

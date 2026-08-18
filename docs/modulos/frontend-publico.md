@@ -51,7 +51,10 @@ Há shortcodes/blocos para necessidades específicas:
 {: .importante }
 > Depois de publicar a Central, copie o endereço dela e coloque em
 > **Configurações > Frontend público > URL da Central de Atendimento**. É esse endereço que
-> os **e-mails** usam nos botões de acompanhamento — sem ele, os links caem na página inicial.
+> os **e-mails** usam nos botões de acompanhamento. Deixando o campo vazio, o V3RHelp tenta
+> achar sozinho uma página publicada com a Central — e só cai na página inicial se não achar
+> nenhuma (o link deixa de levar direto ao chamado). Veja o detalhe em
+> [Configurações](/modulos/configuracoes/).
 
 ## Como as pessoas abrem um chamado
 
