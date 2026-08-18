@@ -3,8 +3,8 @@ title: Configurações
 parent: Módulos
 nav_order: 6
 role: [supervisor]
-screenshots: [mod-configuracoes-01]
-last_verified: 2026-07-13
+screenshots: [mod-configuracoes-01, mod-configuracoes-02-logo-biblioteca]
+last_verified: 2026-08-18
 status: publicado
 description: A identidade da organização, as notificações por e-mail e o comportamento da Central de Atendimento.
 ---
@@ -29,7 +29,16 @@ Em **V3RHelp! > Configurações** ficam os ajustes gerais do sistema, organizado
 - **Nome da organização** — aparece no painel e no **cabeçalho dos e-mails**.
 - **E-mail de suporte** — usado como remetente das mensagens automáticas.
 - **Logo da organização** — enviada para a biblioteca de mídia; aparece nas páginas públicas
-  de chamado e no **topo dos e-mails**.
+  de chamado e no **topo dos e-mails**. Você pode **enviar um arquivo novo** ou clicar em
+  **Escolher da biblioteca** para reaproveitar uma imagem já enviada ao site (a biblioteca de
+  mídia padrão do WordPress abre para você escolher).
+
+![Biblioteca de mídia do WordPress aberta para escolher a logo](../assets/mod-configuracoes-02-logo-biblioteca.png)
+
+{: .dica }
+> Use **Escolher da biblioteca** quando a logo da organização já foi enviada antes — no tema do
+> site, em outro plugin, ou numa tentativa anterior aqui mesmo. Evita duplicar o mesmo arquivo
+> na biblioteca de mídia com nomes diferentes.
 
 {: .importante }
 > Preencher o **nome, o e-mail e a logo** dá aos e-mails e às páginas a cara da sua
@@ -107,3 +116,35 @@ tipo** de aviso:
 > Liberar a abertura para **visitantes** é ótimo para acessibilidade, mas expõe o formulário a
 > spam. Por isso a **proteção anti-spam** (acima) já vem ligada — deixe-a ativa quando permitir
 > visitantes. Ela é invisível para o público e não pede captcha.
+
+## Quem enxerga quais chamados
+
+Por padrão, cada pessoa que abre um chamado (pela Central ou por um formulário do site) só
+enxerga **os próprios** chamados — nunca os de outra pessoa. Esta seção deixa você abrir uma
+exceção, papel por papel do WordPress, para quem precisa acompanhar tudo sem fazer parte da
+equipe de suporte.
+
+- **Papéis com visão de todos os chamados** — marque, entre os papéis do WordPress existentes
+  no site, quais devem enxergar **todos os chamados** na Central de Atendimento, em vez de só os
+  próprios. Vem **desmarcado para todos os papéis** — o comportamento padrão continua sendo cada
+  um ver apenas o que abriu.
+
+{: .importante }
+> Pense num coordenador ou gestor que precisa **acompanhar tudo** o que está sendo atendido, sem
+> virar operador nem entrar na fila de designação — ele não vai resolver chamados, só
+> supervisionar. Marcar o papel dele aqui resolve isso sem mexer na Equipe: continua sendo um
+> usuário comum do site, só que com visão ampliada na Central.
+
+{: .atencao }
+> Este controle **não muda o que a equipe de suporte enxerga**. Operadores e supervisores
+> continuam regidos pelas permissões e pelos grupos do módulo [Equipe](equipe.html) e
+> [Grupos](grupos.html) — dar visão ampliada a um papel do WordPress não amplia nem reduz o
+> escopo de quem já está na equipe. E o acesso por **magic link** enviado por e-mail continua
+> restrito ao chamado daquele link especificamente, mesmo que o papel do destinatário tenha
+> visão ampliada marcada aqui.
+
+{: .exemplo }
+> A organização tem o papel personalizado "Coordenação". Marcando "Coordenação" nesta lista,
+> qualquer usuário com esse papel passa a ver todos os chamados na Central — mesmo sem nunca ter
+> sido adicionado à Equipe. Um coordenador que só precisa relatório de andamento não precisa mais
+> pedir para um supervisor exportar dados para ele.

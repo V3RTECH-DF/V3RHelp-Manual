@@ -135,7 +135,26 @@ Sim. **Supervisores** e **operadores** podem trabalhar direto pela **Central de
 Atendimento** (a página pública). O supervisor vê **todos** os chamados; o
 operador, os **designados a ele** — e ambos podem responder, mudar o status e
 designar por ali. O acesso é validado por papel e permissão; quem só abre
-chamados continua vendo apenas os seus.
+chamados continua vendo apenas os seus, a não ser que o papel dele tenha sido
+marcado em [Configurações > Quem enxerga quais chamados](/modulos/configuracoes/#quem-enxerga-quais-chamados)
+para enxergar tudo.
+
+### Como faço para excluir vários chamados de uma vez? Dá para desfazer?
+
+Na lista de **Chamados**, marque as caixas de seleção das linhas (ou use
+"selecionar todos") e escolha **Excluir** na barra de ações em lote. **Não dá
+para desfazer** — o chamado, as mensagens e os anexos somem definitivamente.
+Por isso só o **supervisor** vê essa opção, e uma confirmação mostra a
+quantidade e os códigos antes de você confirmar. Veja mais em
+[Módulo de Chamados](/modulos/chamados/#excluir-chamados-em-lote).
+
+### Um coordenador precisa acompanhar todos os chamados sem entrar na equipe de suporte. Como faço?
+
+Não é preciso adicioná-lo à Equipe como operador ou supervisor. Em
+[Configurações > Quem enxerga quais chamados](/modulos/configuracoes/#quem-enxerga-quais-chamados),
+marque o papel do WordPress dele (por exemplo, "Coordenação" ou "Editor") para
+que qualquer usuário com esse papel enxergue **todos os chamados** na Central,
+sem virar operador nem entrar no rodízio de designação.
 
 ### Como envio uma sugestão ou relato sobre o próprio V3RHelp?
 

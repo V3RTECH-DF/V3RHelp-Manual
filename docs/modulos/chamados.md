@@ -3,8 +3,8 @@ title: Chamados
 parent: Módulos
 nav_order: 1
 role: [operador, supervisor]
-screenshots: [mod-chamados-lista, mod-chamados-detalhe]
-last_verified: 2026-07-13
+screenshots: [mod-chamados-lista, mod-chamados-detalhe, mod-chamados-lote, mod-chamados-lote-excluir]
+last_verified: 2026-08-18
 status: publicado
 description: A fila de chamados e o atendimento de cada um — respostas, notas internas, anexos, status e designação.
 ---
@@ -39,6 +39,60 @@ Abra **V3RHelp! > Chamados**. Você vê todos os chamados, com código, assunto,
 > O **semáforo de SLA** na lista mostra, num olhar, quais chamados estão no prazo, em atenção
 > ou vencidos. É ele que ajuda a equipe a decidir **o que atacar primeiro** — priorizar pelo
 > vermelho evita estourar prazos e clientes insatisfeitos.
+
+## Chamados em lote
+
+Quando há mais de um chamado para tratar do mesmo jeito — encerrar uma leva já resolvida,
+redistribuir tudo de um operador que saiu de férias, exportar um recorte para relatório —, você
+não precisa abrir chamado por chamado.
+
+1. Marque a caixa de seleção de cada linha que quer incluir, ou use **selecionar todos** no
+   cabeçalho da lista para marcar tudo o que está visível na tela (respeitando os filtros e a
+   busca aplicados).
+2. Com um ou mais chamados marcados, a **barra de ações em lote** aparece com as opções
+   disponíveis.
+
+![Chamados marcados com a barra de ações em lote](../assets/mod-chamados-lote.png)
+
+- **Mudar status** — leva todo o conjunto marcado para um novo status de uma vez. O seletor só
+  oferece as transições **válidas para todos os chamados marcados ao mesmo tempo**; uma
+  transição que não faz sentido para o conjunto simplesmente não aparece como opção.
+- **Designar a operador ou grupo** — atribui o mesmo responsável a todos os chamados marcados,
+  numa única ação.
+- **Exportar os selecionados** — gera um arquivo só com os chamados marcados, no mesmo formato
+  da exportação de dados (veja [Importação e Exportação](import-export.html)).
+- **Excluir** — apaga definitivamente os chamados marcados. Veja a seção abaixo antes de usar.
+
+{: .importante }
+> Ações em lote existem para poupar cliques repetitivos, não para agir às cegas. Se algum
+> chamado do conjunto **não pode** receber a ação (por exemplo, uma transição de status
+> inválida para aquele chamado específico), o sistema informa **quais chamados falharam e por
+> quê** — a ação nunca falha em silêncio nem finge que deu tudo certo.
+
+### Excluir chamados em lote
+
+{: .atencao }
+> **A exclusão é definitiva e não tem como desfazer.** Ela apaga o chamado inteiro — mensagens,
+> anexos e campos preenchidos do formulário — do banco de dados. Não é "mover para a lixeira":
+> depois de excluído, o único jeito de recuperar é um backup do banco, se houver. **Só o
+> supervisor** pode excluir chamados; operadores não veem essa opção na barra de ações.
+
+Antes de excluir, o sistema mostra uma **confirmação** listando quantos chamados serão
+apagados, com os **códigos e assuntos** de cada um — para você conferir que marcou o conjunto
+certo antes de confirmar.
+
+![Confirmação da exclusão em lote, com quantidade, códigos e assuntos](../assets/mod-chamados-lote-excluir.png)
+
+{: .exemplo }
+> A equipe decide limpar chamados de teste abertos durante um treinamento. O supervisor filtra
+> pela categoria "Teste", marca os 12 chamados encontrados, escolhe **Excluir** e confere na
+> confirmação que são exatamente aqueles 12 códigos — e só então confirma.
+
+{: .dica }
+> Prefira **Cancelado** a excluir sempre que o chamado tiver algum valor de histórico — mesmo
+> um chamado duplicado ou aberto por engano pode servir de referência depois. Reserve a
+> exclusão para o que realmente não deve continuar existindo (dado de teste, spam, chamado
+> criado por engano sem nenhuma informação útil).
 
 ## O detalhe do chamado
 

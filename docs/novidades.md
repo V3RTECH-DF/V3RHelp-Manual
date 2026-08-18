@@ -18,6 +18,60 @@ que muda para você.
 
 <div class="timeline" markdown="1">
 
+## 1.26.3 · agosto / 2026
+{: .text-green-200 }
+
+- **Correção no seletor de membros da Equipe:** ao trocar de busca depois de já ter marcado
+  alguém, o nome dessa pessoa podia sumir da etiqueta e aparecer como um código cru. Agora o
+  nome fica guardado e continua aparecendo certinho, não importa quantas buscas você fizer.
+
+## 1.26.2 · agosto / 2026
+{: .text-green-200 }
+
+- **Ajuste visual nos campos de busca:** nos campos de busca do painel (Chamados e Equipe), o
+  ícone da lupa não fica mais em cima do texto digitado, e o espaçamento dos campos foi
+  corrigido.
+
+## 1.26.1 · agosto / 2026
+{: .text-green-200 }
+
+- **Logo pela biblioteca de mídia:** em [Configurações](modulos/configuracoes), além de enviar
+  um arquivo novo, agora dá para clicar em **Escolher da biblioteca** e reaproveitar uma imagem
+  de logo já enviada ao site.
+
+## 1.26.0 · agosto / 2026
+{: .text-green-200 }
+
+- **Quem enxerga quais chamados:** nova opção em
+  [Configurações](modulos/configuracoes#quem-enxerga-quais-chamados) para marcar, papel do
+  WordPress por papel, quem enxerga **todos** os chamados na Central de Atendimento em vez de
+  só os próprios — útil para coordenadores e gestores que acompanham tudo sem entrar na equipe
+  de suporte. Por padrão, ninguém ganha essa visão ampliada: o comportamento de sempre continua
+  valendo até você marcar um papel.
+
+## 1.25.1 · agosto / 2026
+{: .text-green-200 }
+
+- **Ajuste visual:** o cursor agora vira uma mãozinha ao passar sobre abas e botões do painel,
+  deixando mais claro o que é clicável.
+
+## 1.25.0 · agosto / 2026
+{: .text-green-200 }
+
+- **Ações em lote nos chamados:** na lista de [Chamados](modulos/chamados#chamados-em-lote), marque
+  vários chamados (ou todos os visíveis) e aplique de uma vez: **mudar status**, **designar a um
+  operador ou grupo**, **exportar** ou **excluir**. A exclusão em lote é **definitiva** e só o
+  **supervisor** pode fazer, com uma confirmação mostrando quantos e quais chamados serão
+  apagados antes de você confirmar.
+
+## 1.24.3 · agosto / 2026
+{: .text-green-200 }
+
+- **Busca ao adicionar membros da Equipe:** o seletor de "Adicionar membro" agora tem um campo
+  de **busca** por nome ou e-mail e permite **marcar várias pessoas** para adicionar de uma vez,
+  todas com o mesmo papel e as mesmas categorias. Antes, a lista mostrava só uma fatia fixa dos
+  usuários do site e cada pessoa precisava ser adicionada separadamente.
+
 ## 1.24.0 · julho / 2026
 {: .text-green-200 }
 
