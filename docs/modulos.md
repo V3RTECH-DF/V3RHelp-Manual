@@ -27,6 +27,7 @@ suporte** (operadores e supervisores). Quem apenas abre chamados usa a
 - [Configurações](/modulos/configuracoes/) — organização, notificações e frontend
 - [Importar / Exportar](/modulos/import-export/) — levar e trazer dados
 - [Central de Atendimento (público)](/modulos/frontend-publico/) — a tela de quem abre chamados
+- [Integrações](/modulos/integracoes/) — chaves de API e webhooks para ferramentas externas de automação
 
 {: .dica }
 > Não sabe por onde começar? Se você atende chamados, comece por **Chamados**. Se você

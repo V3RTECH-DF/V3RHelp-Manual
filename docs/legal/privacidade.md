@@ -74,16 +74,25 @@ inclui informações do chamado.
 O plugin **não compartilha** dados com terceiros por conta própria. Serviços externos só
 recebem dados se a sua organização os configurar (por exemplo, um serviço de envio de e-mail).
 
-### B.5 Direitos do titular
+### B.5 Integrações externas (chaves de API e webhooks)
+O administrador da sua instalação pode gerar **chaves de API** e cadastrar **webhooks** para
+que ferramentas de automação externas (por exemplo, o n8n) leiam ou recebam dados dos
+chamados — incluindo nome, e-mail, descrição e mensagens do solicitante. Essa integração é uma
+decisão do **administrador da instalação**, não da V3RTECH: a base legal e o destino desses
+dados são responsabilidade de quem configura a chave ou o webhook. Ao criar cada credencial, o
+painel exige uma confirmação explícita desse envio antes de liberar. Veja como funciona em
+[Módulo de Integrações](/modulos/integracoes/).
+
+### B.6 Direitos do titular
 Conforme a LGPD, o titular pode solicitar **confirmação, acesso, correção, portabilidade e
 exclusão** de seus dados. A equipe da organização pode localizar e gerenciar esses dados pelas
 telas de Chamados do painel.
 
-### B.6 Retenção e eliminação
+### B.7 Retenção e eliminação
 A sua organização define por **quanto tempo** os chamados são mantidos, conforme a necessidade
 e a legislação. A exclusão de um chamado remove seus dados da base.
 
-### B.7 Segurança
+### B.8 Segurança
 Recomenda-se manter o site em **HTTPS**, o WordPress e os plugins **atualizados**, e restringir
 o **acesso administrativo** apenas a quem precisa.
 
@@ -95,4 +104,5 @@ Esta política pode ser atualizada. A versão vigente fica em
 
 **Contato:** dpo@v3rtech.com.br · suporte@v3rtech.com.br
 
-_Versão deste documento: 1.0 (julho de 2026)._
+_Versão deste documento: 1.1 (agosto de 2026) — adicionada a seção B.5, sobre integrações
+externas (chaves de API e webhooks)._

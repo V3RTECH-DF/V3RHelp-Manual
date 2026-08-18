@@ -18,6 +18,45 @@ que muda para você.
 
 <div class="timeline" markdown="1">
 
+## 1.29.0 · agosto / 2026
+{: .text-green-200 }
+
+- **Abertura de chamados por sistema externo:** a nova aba [Integrações](modulos/integracoes)
+  ganhou o escopo **Escrita** para chaves de API — dá para um sistema externo (por exemplo, um
+  formulário que já existe no seu site, fora do WordPress) abrir chamados no V3RHelp
+  automaticamente, sem ninguém copiar e colar nada.
+
+## 1.28.1 · agosto / 2026
+{: .text-green-200 }
+
+- **Correção em Integrações:** ao criar uma chave de API ou um webhook sem marcar a
+  confirmação sobre envio de dados, o aviso pedindo para marcá-la ficava escondido atrás da
+  janela — parecia que nada tinha acontecido ao clicar em "Gerar chave" ou "Cadastrar". Agora
+  o aviso aparece dentro da própria janela.
+
+## 1.28.0 · agosto / 2026
+{: .text-green-200 }
+
+- **Nova aba Integrações:** conecte o V3RHelp a ferramentas externas de automação, como o
+  **n8n** — por exemplo, para alimentar uma planilha do Google automaticamente. Duas formas de
+  conectar: **chaves de API**, para a ferramenta externa consultar chamados, e **webhooks de
+  saída**, para o V3RHelp avisar sozinho quando algo acontece (chamado aberto, respondido,
+  status alterado, entre outros). Visível só para o supervisor. Veja em
+  [Módulos > Integrações](modulos/integracoes).
+
+## 1.27.1 · agosto / 2026
+{: .text-green-200 }
+
+- **Ajuste visual:** correção pontual para o painel manter a própria aparência em temas de
+  site que ainda insistiam em sobrescrever a cor de fundo de alguns campos.
+
+## 1.27.0 · agosto / 2026
+{: .text-green-200 }
+
+- **O painel mantém a própria aparência dentro do site:** quando o painel do V3RHelp é
+  colocado numa página do seu site (em vez do wp-admin), ele agora resiste melhor ao CSS do
+  tema e não fica mais "espremido" nem com a aparência quebrada por regras de estilo do site.
+
 ## 1.26.3 · agosto / 2026
 {: .text-green-200 }
 

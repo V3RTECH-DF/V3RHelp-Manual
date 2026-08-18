@@ -156,6 +156,38 @@ marque o papel do WordPress dele (por exemplo, "Coordenação" ou "Editor") para
 que qualquer usuário com esse papel enxergue **todos os chamados** na Central,
 sem virar operador nem entrar no rodízio de designação.
 
+### Como conecto o V3RHelp a uma ferramenta como o n8n?
+
+Em [Integrações](/modulos/integracoes/) (visível só para o supervisor) você tem duas opções.
+Se a ferramenta externa precisa **consultar** chamados, gere uma **chave de API** com escopo
+de leitura. Se a ferramenta precisa **saber na hora** quando algo acontece (um chamado foi
+aberto, por exemplo), cadastre um **webhook** — o V3RHelp avisa sozinho, sem a ferramenta
+precisar ficar perguntando.
+
+### Gerei uma chave de API e não anotei o valor. E agora?
+
+Não tem como recuperar — a chave só é mostrada uma vez, no momento em que você a cria. Gere
+uma chave nova em [Integrações](/modulos/integracoes/) e atualize a ferramenta externa com o
+valor novo.
+
+### Por que preciso confirmar que os dados dos solicitantes serão enviados para fora?
+
+Porque uma chave de API ou um webhook dão a uma ferramenta externa acesso a dados pessoais de
+quem abre chamado — nome, e-mail, descrição, mensagens. Essa confirmação existe para que essa
+decisão seja consciente, e não um efeito colateral de "só configurar uma integração". Veja
+mais em [Política de Privacidade](/legal/privacidade/).
+
+### O que acontece se o destino do meu webhook cair?
+
+O V3RHelp tenta reenviar o aviso, espaçando as tentativas — não desiste na primeira falha.
+Se o mesmo aviso chegar mais de uma vez do outro lado, cada aviso leva um identificador de
+entrega próprio para a ferramenta externa reconhecer a repetição e não duplicar nada.
+
+### Posso saber se uma chave de API está sendo usada?
+
+Sim. A lista de chaves em [Integrações](/modulos/integracoes/) mostra a **data do último
+uso** de cada uma — útil para achar uma chave esquecida e revogá-la.
+
 ### Como envio uma sugestão ou relato sobre o próprio V3RHelp?
 
 No painel, use o botão **Enviar Feedback** (topo da tela do V3RHelp). Escolha o
