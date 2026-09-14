@@ -18,6 +18,14 @@ que muda para você.
 
 <div class="timeline" markdown="1">
 
+## 1.34.3 · setembro / 2026
+{: .text-green-200 }
+
+- **Correção importante: as abas do painel voltam a funcionar.** Nas versões 1.34.0 a 1.34.2,
+  clicar numa aba (Chamados, Categorias, Configurações…) não trocava de tela, e o painel ficava
+  parado no Dashboard. Isso acontecia também no painel exibido dentro de uma página do site.
+  Agora cada aba abre a tela certa.
+
 ## 1.34.2 · setembro / 2026
 {: .text-green-200 }
 
