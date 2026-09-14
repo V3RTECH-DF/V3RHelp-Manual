@@ -18,6 +18,14 @@ que muda para você.
 
 <div class="timeline" markdown="1">
 
+## 1.34.4 · setembro / 2026
+{: .text-green-200 }
+
+- **Some o aviso técnico de tradução no topo do painel:** em sites com o modo de depuração do
+  WordPress ligado, aparecia em toda tela um aviso dizendo que as traduções do V3RHelp eram
+  carregadas cedo demais. Ele não afetava o funcionamento, mas poluía o painel. Agora não aparece
+  mais.
+
 ## 1.34.3 · setembro / 2026
 {: .text-green-200 }
 
