@@ -18,6 +18,20 @@ que muda para você.
 
 <div class="timeline" markdown="1">
 
+## 1.34.0 · setembro / 2026
+{: .text-green-200 }
+
+- **Cabeçalho e barra de navegação no novo padrão visual V3RTECH.** O topo do painel e a
+  barra de abas ganham o mesmo desenho usado nos demais produtos da família — mais
+  consistente para quem usa mais de um plugin V3RTECH no mesmo site.
+- **As abas do menu passam a mostrar só o nome, sem ícone** — o mesmo padrão adotado pelos
+  outros produtos da família.
+- **Os avisos do WordPress aparecem logo acima do conteúdo da tela**, agora sempre no mesmo
+  lugar, abaixo da barra de navegação — antes podiam aparecer no meio da tela.
+- **As caixas de seleção marcadas ficam bem visíveis** no novo desenho do painel.
+- Corrigido o título da seção "Integrações", em Configurações, que aparecia em inglês
+  (`integrations`) em vez de "Integrações".
+
 ## 1.33.0 · setembro / 2026
 {: .text-green-200 }
 
@@ -29,6 +43,33 @@ que muda para você.
   mesmo sem dar para abrir nada dentro dela.
 - Mudança só de acesso, sem efeito no visual das telas — a próxima atualização traz o ajuste
   visual (cabeçalho e barra de navegação no padrão da família V3RTECH).
+
+## 1.32.0 · setembro / 2026
+{: .text-green-200 }
+
+- **O V3RHelp! aparece agrupado com os outros produtos V3RTECH no menu lateral do painel.**
+  Antes a entrada ficava solta entre plugins de outros fabricantes; agora ela fica junto das
+  entradas dos demais produtos da casa, deixando o menu mais organizado.
+
+## 1.31.0 · agosto / 2026
+{: .text-green-200 }
+
+- **Licença real, com ativação dentro do próprio painel:** o V3RHelp ganhou uma aba própria
+  para ativar a licença, direto na tela administrativa.
+- **Atualização automática pela tela de plugins do WordPress:** a partir desta versão, o
+  V3RHelp aparece na lista de atualizações do WordPress como qualquer outro plugin, sem
+  precisar baixar e enviar o arquivo manualmente.
+- **Passa a exigir PHP 8.2 ou superior.** Em servidor com versão de PHP mais antiga, o plugin
+  se desativa sozinho e mostra um aviso — o restante do site continua funcionando normalmente.
+- **Fim da divisão entre recursos gratuitos e pagos:** não existe mais recurso trancado por
+  plano, e todas as funcionalidades do V3RHelp ficam disponíveis. A licença passa a garantir as
+  atualizações e correções do plugin.
+
+{: .atencao }
+> **Se o seu site já tinha o V3RHelp instalado numa versão anterior a esta, é preciso
+> atualizar manualmente uma vez** (baixando e enviando o novo arquivo, como antes). A
+> atualização automática pela tela de plugins do WordPress só passa a valer a partir desta
+> versão em diante.
 
 ## 1.30.0 · agosto / 2026
 {: .text-green-200 }
