@@ -18,6 +18,18 @@ que muda para você.
 
 <div class="timeline" markdown="1">
 
+## 1.33.0 · setembro / 2026
+{: .text-green-200 }
+
+- **Supervisor e operador passam a entrar no painel do WordPress também em sites com loja
+  (WooCommerce).** Nesses sites, o WooCommerce impedia quem tem esses papéis de acessar o
+  painel. Agora isso não acontece mais.
+- **O menu do painel fica mais limpo para quem não faz parte da equipe do V3RHelp.** Quem não
+  tem papel no plugin deixa de ver a entrada "V3RHelp!" no menu lateral — antes ela aparecia
+  mesmo sem dar para abrir nada dentro dela.
+- Mudança só de acesso, sem efeito no visual das telas — a próxima atualização traz o ajuste
+  visual (cabeçalho e barra de navegação no padrão da família V3RTECH).
+
 ## 1.30.0 · agosto / 2026
 {: .text-green-200 }
 
