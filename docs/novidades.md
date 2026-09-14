@@ -18,6 +18,15 @@ que muda para você.
 
 <div class="timeline" markdown="1">
 
+## 1.34.2 · setembro / 2026
+{: .text-green-200 }
+
+- **O consentimento do titular não pode mais ser apagado por engano:** no conjunto de campos
+  "Consentimento LGPD", a caixa de aceite passa a ser protegida. Ela não pode ser excluída,
+  trocar de tipo, deixar de ser obrigatória nem ficar escondida por condição. Assim, todo
+  formulário que usa esse conjunto continua pedindo e registrando o aceite. O texto do aceite,
+  o rótulo e a ajuda continuam editáveis, para você ajustar a redação à política do seu site.
+
 ## 1.34.1 · setembro / 2026
 {: .text-green-200 }
 

@@ -95,7 +95,10 @@ resposta — e os campos de um conjunto oculto não são exigidos nem gravados.
 ### O conjunto "Consentimento LGPD" já vem pronto
 
 O V3RHelp cria automaticamente um conjunto **Consentimento LGPD** (marcado como **"Sistema"** —
-por isso não pode ser excluído). Ele traz um campo de aceite pronto para usar. Você também pode
+por isso não pode ser excluído). Ele traz um campo de aceite pronto para usar. Esse campo também é
+protegido: você pode **ajustar o texto do aceite, o rótulo e a ajuda** à política do seu site, mas
+não pode excluí-lo, trocar o tipo, torná-lo opcional nem escondê-lo por condição. Assim, o aceite
+continua sendo pedido e registrado em todo formulário que usa o conjunto. Você também pode
 marcar **qualquer** campo de múltipla escolha como **campo de consentimento**: quando o
 solicitante aceita, o chamado registra **o texto do aceite e a data e hora**.
 
