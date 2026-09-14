@@ -6,7 +6,7 @@ role: [supervisor, operador]
 routes: [/wp-admin/admin.php?page=v3rhelp#/groups]
 screenshots: [mod-grupos-01, mod-grupos-02, mod-grupos-03]
 source_docs: [ARCHITECTURE.md#adr-015, "#73"]
-last_verified: 2026-07-21
+last_verified: 2026-09-13
 status: publicado
 description: Grupos de operadores — vários atendentes trabalhando juntos num mesmo chamado, com a opção de um deles assumir.
 ---

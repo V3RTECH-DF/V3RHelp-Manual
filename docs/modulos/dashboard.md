@@ -4,7 +4,7 @@ parent: Módulos
 nav_order: 5
 role: [supervisor, operador]
 screenshots: [mod-dashboard-01]
-last_verified: 2026-07-09
+last_verified: 2026-09-13
 status: publicado
 description: A visão geral da operação — indicadores e gráficos para acompanhar e melhorar o atendimento.
 ---
@@ -52,8 +52,4 @@ No topo da tela ficam os números principais:
 ## Chamados recentes
 
 Logo abaixo dos gráficos fica a lista de **Chamados recentes**, com os últimos chamados registrados no sistema — um atalho rápido para abrir e acompanhar o que acabou de chegar.
-
-## Sobre os gráficos avançados
-
-Os gráficos e relatórios mais detalhados do Dashboard fazem parte do plano Pro. Se o seu plano ainda não inclui esse recurso, a tela exibe um aviso no lugar dos gráficos, indicando que a funcionalidade está desligada.
 </content>

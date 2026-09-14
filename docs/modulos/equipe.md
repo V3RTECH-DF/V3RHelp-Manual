@@ -4,7 +4,7 @@ parent: Módulos
 nav_order: 4
 role: [supervisor]
 screenshots: [mod-equipe-01, mod-equipe-02-busca-multipla]
-last_verified: 2026-08-18
+last_verified: 2026-09-13
 status: publicado
 description: Quem atende os chamados — operadores e supervisores — e quais categorias cada um cobre.
 ---
@@ -96,6 +96,6 @@ João atende as categorias "Financeiro" e "Acesso"; Maria atende "Manutenção".
 
 ## Próximos passos
 
-- [Grupos](grupos.html) — reúna operadores em times para atenderem chamados em conjunto.
-- [Categorias](categorias.html) — como criar e organizar as categorias usadas na Equipe.
-- [Chamados](chamados.html) — como um chamado é designado e pode ser redistribuído.
+- [Grupos](grupos) — reúna operadores em times para atenderem chamados em conjunto.
+- [Categorias](categorias) — como criar e organizar as categorias usadas na Equipe.
+- [Chamados](chamados) — como um chamado é designado e pode ser redistribuído.

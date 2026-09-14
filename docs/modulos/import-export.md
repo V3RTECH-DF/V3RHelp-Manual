@@ -4,7 +4,7 @@ parent: Módulos
 nav_order: 7
 role: [supervisor]
 screenshots: [mod-import-export-01]
-last_verified: 2026-07-16
+last_verified: 2026-09-13
 status: publicado
 description: Levar e trazer configurações e chamados — para backup, migração ou réplica entre sites.
 ---
@@ -22,9 +22,6 @@ description: Levar e trazer configurações e chamados — para backup, migraç�
 </details>
 
 O módulo **Importação/Exportação** permite levar e trazer dados do V3RHelp!: configurações completas ou chamados, em JSON ou CSV. Ele fica em **V3RHelp! > Importação/Exportação**.
-
-{: .atencao }
-> Este recurso faz parte do plano Pro. Se o seu site ainda estiver no plano gratuito, o módulo aparece bloqueado.
 
 ![Importar e exportar](../assets/mod-import-export-01.png)
 

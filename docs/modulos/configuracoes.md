@@ -152,8 +152,8 @@ equipe de suporte.
 
 {: .atencao }
 > Este controle **não muda o que a equipe de suporte enxerga**. Operadores e supervisores
-> continuam regidos pelas permissões e pelos grupos do módulo [Equipe](equipe.html) e
-> [Grupos](grupos.html) — dar visão ampliada a um papel do WordPress não amplia nem reduz o
+> continuam regidos pelas permissões e pelos grupos do módulo [Equipe](equipe) e
+> [Grupos](grupos) — dar visão ampliada a um papel do WordPress não amplia nem reduz o
 > escopo de quem já está na equipe. E o acesso por **magic link** enviado por e-mail continua
 > restrito ao chamado daquele link especificamente, mesmo que o papel do destinatário tenha
 > visão ampliada marcada aqui.

@@ -185,8 +185,8 @@ para desligar de vez a integração; o histórico de entregas daquele webhook é
 
 ## Próximos passos
 
-- [Chamados](chamados.html) — os eventos que os webhooks avisam (aberto, respondido, status
+- [Chamados](chamados) — os eventos que os webhooks avisam (aberto, respondido, status
   alterado, designado) são os mesmos que acontecem nesta tela.
-- [Configurações](configuracoes.html) — outras opções administrativas da instalação.
+- [Configurações](configuracoes) — outras opções administrativas da instalação.
 - [Política de Privacidade](/legal/privacidade/) — o que muda no tratamento de dados quando
   você liga uma integração externa.

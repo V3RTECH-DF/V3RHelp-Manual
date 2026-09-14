@@ -4,7 +4,7 @@ parent: Módulos
 nav_order: 3
 role: [supervisor]
 screenshots: [mod-sla-01]
-last_verified: 2026-07-09
+last_verified: 2026-09-13
 status: publicado
 description: Os prazos de atendimento (primeira resposta e resolução) que o V3RHelp acompanha em tempo real.
 ---

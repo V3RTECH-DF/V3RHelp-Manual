@@ -4,7 +4,7 @@ parent: Módulos
 nav_order: 2
 role: [supervisor]
 screenshots: [mod-categorias-01]
-last_verified: 2026-07-09
+last_verified: 2026-09-13
 status: publicado
 description: Os assuntos que organizam os chamados e ligam cada tipo de pedido a um prazo de SLA.
 ---
@@ -63,12 +63,8 @@ Cada categoria pode apontar um **Grupo padrão** de operadores. Quando você def
 {: .dica }
 > Use cores que contrastem bem entre si, principalmente se você tiver muitas categorias. Isso facilita reconhecer a fila de longe, sem precisar ler nome por nome.
 
-## Limite no plano gratuito
-
-No plano gratuito, você pode cadastrar até **5 categorias**. Se sua operação precisar de mais assuntos que isso, o recurso pago libera categorias ilimitadas.
-
 {: .dica }
-> Antes de criar uma categoria nova, veja se um assunto já existente não cobre o caso. Poucas categorias bem definidas costumam funcionar melhor do que muitas categorias parecidas — e ajudam a não estourar o limite do plano gratuito à toa.
+> Antes de criar uma categoria nova, veja se um assunto já existente não cobre o caso. Poucas categorias bem definidas costumam funcionar melhor do que muitas categorias parecidas — e ficam mais fáceis de escolher na hora de abrir um chamado.
 
 ## Onde as categorias aparecem depois
 

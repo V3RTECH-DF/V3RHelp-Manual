@@ -4,7 +4,7 @@ parent: Módulos
 nav_order: 1
 role: [operador, supervisor]
 screenshots: [mod-chamados-lista, mod-chamados-detalhe, mod-chamados-lote, mod-chamados-lote-excluir]
-last_verified: 2026-08-18
+last_verified: 2026-09-13
 status: publicado
 description: A fila de chamados e o atendimento de cada um — respostas, notas internas, anexos, status e designação.
 ---
@@ -60,7 +60,7 @@ não precisa abrir chamado por chamado.
 - **Designar a operador ou grupo** — atribui o mesmo responsável a todos os chamados marcados,
   numa única ação.
 - **Exportar os selecionados** — gera um arquivo só com os chamados marcados, no mesmo formato
-  da exportação de dados (veja [Importação e Exportação](import-export.html)).
+  da exportação de dados (veja [Importação e Exportação](import-export)).
 - **Excluir** — apaga definitivamente os chamados marcados. Veja a seção abaixo antes de usar.
 
 {: .importante }

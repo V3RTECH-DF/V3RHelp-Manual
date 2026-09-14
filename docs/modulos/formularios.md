@@ -3,8 +3,8 @@ title: Formulários
 parent: Módulos
 nav_order: 2
 role: [supervisor]
-screenshots: [mod-formularios-conjuntos, mod-formularios-tipos]
-last_verified: 2026-07-16
+screenshots: [mod-formularios-conjuntos, mod-formularios-conjuntos-consentimento, mod-formularios-tipos]
+last_verified: 2026-09-13
 status: publicado
 description: Monte tipos de solicitação com campos próprios e reutilizáveis — do formulário de suporte ao pedido de documento (protocolo).
 ---
@@ -98,9 +98,13 @@ O V3RHelp cria automaticamente um conjunto **Consentimento LGPD** (marcado como 
 por isso não pode ser excluído). Ele traz um campo de aceite pronto para usar. Esse campo também é
 protegido: você pode **ajustar o texto do aceite, o rótulo e a ajuda** à política do seu site, mas
 não pode excluí-lo, trocar o tipo, torná-lo opcional nem escondê-lo por condição. Assim, o aceite
-continua sendo pedido e registrado em todo formulário que usa o conjunto. Você também pode
-marcar **qualquer** campo de múltipla escolha como **campo de consentimento**: quando o
-solicitante aceita, o chamado registra **o texto do aceite e a data e hora**.
+continua sendo pedido e registrado em todo formulário que usa o conjunto. Ao editar o campo, os
+controles bloqueados aparecem desabilitados e uma dica explica o motivo — não é bug, é a proteção
+funcionando. Você também pode marcar **qualquer** campo de múltipla escolha como **campo de
+consentimento**: quando o solicitante aceita, o chamado registra **o texto do aceite e a data e
+hora**.
+
+![Edição do campo de consentimento, com tipo, obrigatoriedade e marca de consentimento bloqueados e a dica explicando o motivo](../assets/mod-formularios-conjuntos-consentimento.png)
 
 {: .dica }
 > Precisa coletar consentimento? Basta **encaixar o conjunto "Consentimento LGPD"** no tipo de

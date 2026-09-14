@@ -5,7 +5,7 @@ nav_order: 10
 role: [supervisor]
 routes: [/wp-admin/admin.php?page=v3rhelp#/license]
 screenshots: [mod-licenca-01]
-last_verified: 2026-08-28
+last_verified: 2026-09-13
 status: publicado
 description: Ative a licença para receber atualizações automáticas do V3RHelp — inclusive as de correção.
 ---
