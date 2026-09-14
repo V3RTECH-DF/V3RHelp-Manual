@@ -18,6 +18,13 @@ que muda para você.
 
 <div class="timeline" markdown="1">
 
+## 1.34.1 · setembro / 2026
+{: .text-green-200 }
+
+- **Caixas de seleção no tamanho certo no celular:** no painel aberto pelo celular, as caixas
+  de seleção e as opções de marcar ficavam pequenas demais para tocar com o dedo. Agora elas
+  voltam ao tamanho de toque que o WordPress usa no celular.
+
 ## 1.34.0 · setembro / 2026
 {: .text-green-200 }
 
