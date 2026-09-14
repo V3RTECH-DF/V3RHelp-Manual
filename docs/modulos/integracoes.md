@@ -4,9 +4,9 @@ parent: Módulos
 nav_order: 9
 role: [supervisor]
 routes: [/wp-admin/admin.php?page=v3rhelp#/integrations]
-screenshots: []
+screenshots: [mod-integracoes-01, mod-integracoes-02-webhook]
 source_docs: [ARCHITECTURE.md#adr-017, "#82", "#84"]
-last_verified: 2026-08-18
+last_verified: 2026-09-13
 status: publicado
 description: Conecte o V3RHelp a ferramentas externas de automação (como o n8n) por chave de API ou por webhook.
 ---
@@ -22,9 +22,6 @@ description: Conecte o V3RHelp a ferramentas externas de automação (como o n8n
 1. TOC
 {:toc}
 </details>
-
-*(Captura pendente — esta funcionalidade é nova, v1.28/1.29, e as telas serão adicionadas
-numa próxima passada. Veja o que precisa aparecer em cada print no relatório desta entrega.)*
 
 ## O que é a aba Integrações
 
@@ -45,6 +42,8 @@ conectar, e elas resolvem problemas diferentes:
 > administrador decide exatamente o que cada conexão pode ver ou fazer.
 
 Esta aba só aparece para o **supervisor**. Operadores e quem apenas abre chamados não a veem.
+
+![Chaves de API e Webhooks de saída cadastrados](../assets/mod-integracoes-01.png)
 
 ## Chaves de API
 
@@ -127,6 +126,8 @@ aviso automático assim que algo acontece: um chamado é aberto, respondido, mud
    alterado, designado, e os demais disponíveis).
 4. Marque a confirmação de dados e clique em **Cadastrar**.
 5. Copie o **segredo** mostrado na hora do cadastro.
+
+![Formulário de novo webhook, com a lista de eventos disponíveis](../assets/mod-integracoes-02-webhook.png)
 
 {: .importante }
 > **Por que isso é importante:** o segredo serve para a ferramenta do outro lado **conferir

@@ -4,7 +4,7 @@ parent: Módulos
 nav_order: 6
 role: [supervisor]
 screenshots: [mod-configuracoes-01, mod-configuracoes-02-logo-biblioteca]
-last_verified: 2026-08-18
+last_verified: 2026-09-13
 status: publicado
 description: A identidade da organização, as notificações por e-mail e o comportamento da Central de Atendimento.
 ---
@@ -163,3 +163,25 @@ equipe de suporte.
 > qualquer usuário com esse papel passa a ver todos os chamados na Central — mesmo sem nunca ter
 > sido adicionado à Equipe. Um coordenador que só precisa relatório de andamento não precisa mais
 > pedir para um supervisor exportar dados para ele.
+
+## Integrações
+
+- **Dias de retenção do histórico de entregas de webhook** — por quantos dias o V3RHelp guarda o
+  registro de cada tentativa de envio de um [webhook](/modulos/integracoes/) depois que ela **termina** — com sucesso ou depois de esgotar as tentativas de reenvio. Vem em
+  **30 dias**.
+
+{: .importante }
+> Esse histórico é o que permite investigar por que um evento não chegou ao destino — comparar o
+> que foi enviado com o erro que voltou, por exemplo. Sem um limite, essa tabela cresceria para
+> sempre; o prazo apaga só o que **já terminou**: uma entrega ainda tentando de novo (aguardando
+> reenvio) nunca é apagada antes de concluir, não importa a idade.
+
+{: .dica }
+> Aumente o prazo se a equipe depende desse histórico para auditoria ou suporte por mais tempo;
+> diminua se a integração é só de teste. A limpeza roda sozinha, junto do processamento normal
+> dos envios — não exige nenhuma ação manual.
+
+{: .atencao }
+> Este campo **não afeta a coluna "Último disparo"** que aparece na lista de webhooks, em
+> [Integrações](/modulos/integracoes/). Ela continua mostrando a data da última tentativa mesmo
+> depois que o registro detalhado dessa tentativa for apagado pela retenção.
